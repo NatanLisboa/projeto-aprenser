@@ -1,0 +1,27 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #2A2A2A;
+    color: #FED001;
+    padding: 16px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.header-nav-list-item {
+    border: 2px solid #FED001;
+    padding: 15px;
+}
+
