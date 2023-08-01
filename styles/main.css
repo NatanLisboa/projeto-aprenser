@@ -8,10 +8,18 @@ body {
     display: flex;
     background-color: #2A2A2A;
     color: #FED001;
-    padding: 16px;
+    padding: 16px 16px 32px;
     text-transform: uppercase;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin-left: 64px;
+}
+
+.header-nav-list {
+    margin-right: 32px;
 }
 
 .header-nav-list {
@@ -21,7 +29,40 @@ body {
 }
 
 .header-nav-list-item {
-    border: 2px solid #FED001;
+    border: 1px solid #FED001;
     padding: 15px;
+}
+
+.header-nav-list-item:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(white, yellow);
+    padding: 32px 32px 0;
+}
+
+.hero-text-content-title {
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+.hero-text-content-button {
+    padding: 16px 32px;
+    border-radius: 5px;
+    background-color: #FED001;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
