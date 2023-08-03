@@ -151,13 +151,17 @@ body {
 }
 
 .contatos-address {
-    width: 90vw;
+    width: 1312px;
 }
 
 .contatos-address address {
     text-align: right;
     margin-top: 32px;
     font-size: 18px;
+}
+
+.contatos .contatos-address .map {
+    min-width: 1312px;
 }
 
 .contatos-address address p {
