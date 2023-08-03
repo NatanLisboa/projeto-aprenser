@@ -112,3 +112,22 @@ body {
     margin-bottom: 128px;
     font-weight: bolder;
 }
+
+.nossa-escola {
+    display: flex;
+    background-color: #003464;
+    color: white;
+    padding: 64px 64px 0 64px;
+    gap: 32px;
+}
+
+.nossa-escola-text-content-title {
+    font-size: 32px;
+}
+
+.nossa-escola-text-content-description {
+    margin-top: 64px;
+    width: 80%;
+    line-height: 1.5;
+    font-weight: 100;
+}
