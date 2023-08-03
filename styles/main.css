@@ -131,3 +131,37 @@ body {
     line-height: 1.5;
     font-weight: 100;
 }
+
+.contatos {
+    background-color: #EEF3F5;
+    padding: 0 64px 48px 64px;
+}
+
+.contatos-title {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+    padding-top: 64px;
+    margin-bottom: 64px;
+    font-weight: bold;
+}
+
+.contatos-address {
+    width: 90vw;
+}
+
+.contatos-address address {
+    text-align: right;
+    margin-top: 32px;
+    font-size: 18px;
+}
+
+.contatos-address address p {
+    margin: 0;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.contatos-address address p abbr {
+    text-decoration: none;
+}
