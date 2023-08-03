@@ -113,6 +113,10 @@ body {
     font-weight: bolder;
 }
 
+.ver-mais-cursos-button {
+    cursor: pointer;
+}
+
 .nossa-escola {
     display: flex;
     background-color: #003464;
